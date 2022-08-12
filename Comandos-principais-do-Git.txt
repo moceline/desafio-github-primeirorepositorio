@@ -1,0 +1,16 @@
+#gitbash (botão direito)
+
+Para clonar repositório criado no github
+#git clone "(caminho do repositório)"
+
+#Para verificar se está funcionando ok
+git status
+
+#Enviar pasta nova para o controle de versão(local)
+git add . ou git add -A
+
+#Salvar/commitar(localmente  "-m para incluir msg")
+git commit -m "colocar uma mensagem"
+
+#Enviar para a nuvem todos os commits locais 
+git push origin main
